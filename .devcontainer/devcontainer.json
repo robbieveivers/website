@@ -9,12 +9,12 @@
     "customizations": {
       "vscode": {
         "extensions": [
-          "rebornix.ruby",
-          "bungcip.better-toml"
+          "Shopify.ruby-lsp",
+          "tamasfe.even-better-toml"
         ]
       }
     },
-    "postCreateCommand": "bundle install",
+    "postCreateCommand": "bundle install --with development",
     "forwardPorts": [4000],
     "remoteUser": "vscode"
   }
