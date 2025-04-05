@@ -14,7 +14,7 @@
         ]
       }
     },
-    "postCreateCommand": "bundle install --with development",
+    "postCreateCommand": "bundle install",
     "forwardPorts": [4000],
     "remoteUser": "vscode"
   }
